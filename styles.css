@@ -97,6 +97,7 @@ header .profile-image:hover {
   border-bottom: 4px solid grey;
   border-radius: 6px;
   transition: all .5s;
+  transition color: black;
 }
 .card:hover {
   border-color: #ff99ff;
