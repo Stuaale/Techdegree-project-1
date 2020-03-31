@@ -84,6 +84,7 @@ header .profile-image:hover {
   display: table;
   margin: 150px auto;
   text-transform: uppercase;
+  font-size: 150px; 
 }
 .location {
   background-color: #222;
