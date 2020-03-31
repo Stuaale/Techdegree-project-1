@@ -89,7 +89,6 @@ header .profile-image:hover {
   color: yellow;
 }
 .card {
-align-items: center;
   margin: 30px;
   padding: 20px 40px 40px;
   width: 500px;
@@ -99,6 +98,7 @@ align-items: center;
   border-bottom: 4px solid grey;
   border-radius: 6px;
   transition: all .5s;
+  align-items: center;
 }
 .card:hover {
   border-color: #000000;
