@@ -77,14 +77,14 @@ header .profile-image:hover {
   transform: scale(1.2) rotate(360deg);
 }
 .tag {
-  background-color: #efefef;
+  background-color: #f7f5f0;
   color: blue;
   padding: 20px;
   border-radius: 5px;
   display: table;
   margin: 150px auto;
   text-transform: uppercase;
-  font-size: 150px; 
+  font-size: 100px;
 }
 .location {
   background-color: #222;
@@ -93,13 +93,15 @@ header .profile-image:hover {
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
-  width: 1500px;
+  width: 1000px;
   height: 500px;
   text-align: left;
   background: #fff;
   border-bottom: 4px solid grey;
   border-radius: 6px;
   transition: all .5s;
+  font-size: 50px;
+  align-items: center;
 }
 .card:hover {
   border-color: #000000;
@@ -108,6 +110,7 @@ header .profile-image:hover {
 ul.skills {
   padding: 0;
   text-align: center;
+  list-style-type: none;
 }
 
 .skills li {
@@ -221,4 +224,9 @@ a.social:hover {
 
   .experience{
     color: blue;
+  }
+
+  ul{
+    list-style-type: none
+
   }
