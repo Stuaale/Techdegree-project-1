@@ -79,10 +79,11 @@ header .profile-image:hover {
 .tag {
   background-color: #efefef;
   color: blue;
-  padding: 110px;
+  padding: 20px;
   border-radius: 5px;
   display: table;
-  margin: 10px auto;
+  margin: 150px auto;
+  text-transform: uppercase;
 }
 .location {
   background-color: #222;
