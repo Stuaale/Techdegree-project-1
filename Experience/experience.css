@@ -164,7 +164,9 @@ a.social:hover {
 }
 
 .quote{
-  font-size: 40px.
+  font-size: 40px;
+  padding: 30px;
+  font-style: italic;
 }
 
 /* Styles for larger screens */
