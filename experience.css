@@ -55,7 +55,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('../images/experience.png') no-repeat top center ;
+  background: url('images/experience.png') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -235,9 +235,3 @@ a.social:hover {
   .employer{
     color: #0290f5;
   }
-
-.quote{
-  font-size: 40px;
-  padding: 40px;
-  font-style: italic;
-}
