@@ -179,6 +179,7 @@ a.social:hover {
       -ms-flex-pack: distribute;
       justify-content: space-around;
       margin: 0 auto;
+      padding: 15px;
   }
 
   header {
