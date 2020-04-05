@@ -169,6 +169,15 @@ a.social:hover {
   clear: both;
 }
 
+.icon{
+  height: 100px;
+  padding-left: 110px;
+  margin: 0px;
+  text-align: center;
+
+
+}
+
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
 
@@ -179,6 +188,7 @@ a.social:hover {
       -ms-flex-pack: distribute;
       justify-content: space-around;
       margin: 0 auto;
+      padding: 20px;
   }
 
   header {
@@ -207,9 +217,6 @@ a.social:hover {
 
 }
 
-  .background-heading{
-    color: grey;
-    text-align: center;
 
   }
 
@@ -222,6 +229,6 @@ a.social:hover {
     color: blue;
   }
 
-  ul{
+  ul-adjust{
     list-style-type: none
 }
