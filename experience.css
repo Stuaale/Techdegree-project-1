@@ -51,85 +51,38 @@ a:hover {
 .nav a {
   transition: all .5s;
 }
-.nav a:hover {
-  color: white
-}
 
-header.experience-header {
-  text-align: center;
-  background: url('images/experience.png') no-repeat top center ;
-  background-size: cover;
-  overflow: hidden;
-  padding-top: 60px;
-  height: 580px;
-}
-header.experience-header {
-  line-height: 1.5;
-}
-.experience-tag{
-    background-color: #f7f5f0;
-    color: #0290f5;
-    padding: 5px;
-    border-radius: 20px;
-    display: table;
-    margin: 150px auto;
-    text-transform: uppercase;
-    font-size: 80px;
-  }
 
 header {
   text-align: center;
-  background: url('images/workspace.png') no-repeat top center ;
+  background: url('../images/experience.png') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
-  height: 580px;
+  height: 100px;
 }
 header {
   line-height: 1.5;
 }
 
-
-
-header .profile-image {
-  margin-top: 50px;
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-  border: 3px solid white;
-  transition: all .5s;
-}
-header .profile-image:hover {
-  transform: scale(1.2) rotate(360deg);
-}
 .tag {
-  background-color: #efefef;
-  color: black;
-  padding: 10px;
-  border-radius: 5px;
+  background-color: #f7f5f0;
+  color: #0290f5;
+  padding: 5px;
+  border-radius: 20px;
   display: table;
-  margin: 10px auto;
+  margin: 150px auto;
+  text-transform: uppercase;
+  font-size: 80px;
 }
 .location {
   background-color: #222;
   color: yellow;
 }
-.card {
-  margin: 5px;
-  padding: 20px 20px 20px;
-  width: 500px;
-  height: 350px;
-  text-align: left;
-  background: #fff;
-  border-bottom: 4px solid grey;
-  border-radius: 6px;
-  transition: all .5s;
-}
-
 .experience-card {
   margin-left: 200px;
   margin-top: 10px;
-  padding: 20px 20px 20px;
+  padding: 20px 40px 40px;
   width: 1000px;
   height: 150px;
   text-align: center;
@@ -137,22 +90,17 @@ header .profile-image:hover {
   border-bottom: 4px solid grey;
   border-radius: 6px;
   transition: all .5s;
-  font-size: 20px;
+  font-size: 50px;
   justify-content: center;
 }
-
 .card:hover {
   border-color: #000000;
-}
-
-.experience-card:hover {
-  border-color: #000000;
-
 }
 
 ul.skills {
   padding: 0;
   text-align: center;
+  list-style-type: none;
 }
 
 .skills li {
@@ -200,13 +148,13 @@ a.social {
   transition: all .5s;
 }
 a.twitter {
-  background-image: url(images/twitter.svg);
+  background-image: url(../images/twitter.svg);
 }
 a.linkedin {
-  background-image: url(images/linkedin.svg);
+  background-image: url(../images/linkedin.svg);
 }
 a.github {
-  background-image: url(images/github.svg);
+  background-image: url(../images/github.svg);
 }
 a.social:hover {
   opacity: 1;
@@ -222,7 +170,6 @@ a.social:hover {
   color: grey
 }
 
-
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
 
@@ -233,7 +180,6 @@ a.social:hover {
       -ms-flex-pack: distribute;
       justify-content: space-around;
       margin: 0 auto;
-      padding: 15px;
   }
 
   header {
@@ -277,6 +223,11 @@ a.social:hover {
     color: blue;
   }
 
+  ul{
+    list-style-type: none
+
+  }
+
   .experience.card-body{
     margin-top: 10px;
     font-size: 20px;
@@ -288,18 +239,6 @@ a.social:hover {
     font-size: 30px;
   }
 
-  h2.experience-h2{
-    margin: -10px;
-    font-size: 30px;
-  }
-
   .employer{
     color: #0290f5;
-  }
-
-
-  ul.experience-card-body{
-    list-style-type: none;
-
-
   }
