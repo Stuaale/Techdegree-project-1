@@ -63,9 +63,7 @@ header.experience-header {
   padding-top: 60px;
   height: 580px;
 }
-header.experience-header {
-  line-height: 1.5;
-}
+
 .experience-tag{
     background-color: #f7f5f0;
     color: #0290f5;
@@ -76,6 +74,28 @@ header.experience-header {
     text-transform: uppercase;
     font-size: 80px;
   }
+
+  header.contact-header {
+    text-align: center;
+    background: url('images/contact.png') no-repeat top center ;
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 60px;
+    height: 580px;
+  }
+  header.contact-header {
+    line-height: 1.5;
+  }
+  .contact-tag{
+      background-color: #979fad;
+      color: black;
+      padding: 5px;
+      border-radius: 20px;
+      display: table;
+      margin: 150px auto;
+      text-transform: uppercase;
+      font-size: 80px;
+    }
 
 header {
   text-align: center;
@@ -168,12 +188,6 @@ ul.skills {
   background: #0399ff;
 }
 
-footer {
-  width: 100%;
-  min-height: 30px;
-  padding: 20px 0 40px 20px;
-}
-
 footer .copyright {
   top: -8px;
   font-size: .75em;
@@ -187,6 +201,18 @@ footer ul {
 
 footer ul li {
   display: inline-block;
+}
+
+footer.footer-image{
+  text-align: center;
+  background: url('images/footer.jpg') no-repeat top center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 20px;
+  height: 100px;
+  margin-bottom: 0px;
+  opacity: 0.5;
+
 }
 
 a.social {
@@ -227,10 +253,8 @@ a.social:hover {
 @media screen and (min-width: 720px) {
 
   .flex {
-      display: -ms-flexbox;      /* TWEENER - IE 10 */
       display: flex;
       max-width: 1200px;
-      -ms-flex-pack: distribute;
       justify-content: space-around;
       margin: 0 auto;
       padding: 15px;
@@ -256,7 +280,7 @@ a.social:hover {
 
   footer {
     font-size: 1.3em;
-    max-width: 1200px;
+    background-size: cover;
     margin: 40px auto;
   }
 
@@ -300,6 +324,8 @@ a.social:hover {
 
   ul.experience-card-body{
     list-style-type: none;
+  }
 
-
+  .contact{
+    padding: 20px;
   }
